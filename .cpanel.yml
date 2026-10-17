@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/devxploreseo/public_html/yogesh-test/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp git-test.html $DEPLOYPATH
